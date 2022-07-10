@@ -4,7 +4,16 @@
     flex-direction: column-reverse;
     align-items: center;
     margin-right: 18px;
+    position: relative;
+    transition: all 0.2s;
 }
+
+.Chart svg rect:hover {
+    fill: #FF9B86;
+    transition: all 0.2s;
+}
+
+
 
 .Chart h4 {
     color: #92857A;
@@ -28,6 +37,24 @@
     background-color: #382314;
     margin-bottom: 5px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 60% 84%, 49% 100%, 35% 84%, 0 84%);
-    pointer-events: none; 
 }
 
+
+@media only screen and (max-width : 375px) {  
+    .Chart {
+        margin-right: -5px;
+    }
+
+    .Chart h4 {
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 11px;
+    }
+    
+    .Chart p {
+        font-size: 15px;
+        width: 55px;
+        height: 30px;
+    }
+
+}

@@ -17,3 +17,18 @@
     color: #382314; 
 }
 
+@media only screen and (max-width : 375px) { 
+    .SpendingCard h1 {
+        width: 263px;
+        height: 31px;
+        margin-top: 24px;
+        margin-left: 20px;
+        font-size: 24px;
+    }
+
+    .SpendingCard {
+        width: 375px;
+        height: 421px;
+    }
+}
+

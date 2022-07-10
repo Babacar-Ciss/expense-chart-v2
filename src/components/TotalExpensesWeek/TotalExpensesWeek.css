@@ -51,3 +51,44 @@
     line-height: 23px;
     color: #92857A;
 }
+
+
+@media only screen and (max-width : 375px) { 
+    .Line {
+        width: 303px;
+        height: 2px;
+        background-color: #F8E9DD;
+        margin: 0 auto;
+        transform: translateY(-56px);
+    }
+
+    .Total p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 12px;
+    }
+
+    .Total h1 {
+        font-size: 30px;
+        line-height: 62px;
+        margin-top: -12px;
+    }
+
+    .Last-month h4{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .Last-month p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .Last-month {
+      transform: translateY(16px);
+    }
+    
+    
+
+}
+  

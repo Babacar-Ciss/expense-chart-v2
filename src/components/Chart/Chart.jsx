@@ -1,13 +1,10 @@
 import { useState} from "react";
 import "./Chart.css";
-import datas from "../../data.json"
 
-
+const viewPort = window.innerWidth;
 
 
 const Chart = (props) => {
-    
-
     const [showTopAmount, setShowTopAmoung] = useState(false);
 
     let date = new Date().toLocaleDateString('en-us', { weekday:"short"}).toLocaleLowerCase();
@@ -19,9 +16,13 @@ const Chart = (props) => {
             <h4> {props.day} </h4>
             <svg onMouseOver={() => {setShowTopAmoung(true) }}
                  onMouseOut= {() => {setShowTopAmoung(false) }} 
-                 width="50" height= {props.heightOfChart}>
-              <rect ry="10" width="51" height={props.heightOfChart} 
-                            fill= {date === props.day ? activeStyle : normalStyle} />
+                 width={viewPort <= 375 ? 33 : 52} 
+                 height= {props.heightOfChart}>
+
+              <rect ry={viewPort <= 375 ? 3 : 5}  
+                    width={viewPort <= 375 ? 33 : 50} 
+                    height={props.heightOfChart} 
+                    fill= {date === props.day ? activeStyle : normalStyle} />
             </svg>
 
             {date === props.day 

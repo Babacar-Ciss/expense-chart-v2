@@ -17,7 +17,7 @@ const ChartsContainer = () => {
 
     return (
         <div className="ChartsContainer">
-        {chartsDisplay}
+         {chartsDisplay}
         </div>
     )
 }
