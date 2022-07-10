@@ -1,0 +1,53 @@
+.TotalExpensesWeek {
+    width: 80% ;
+    display: flex;
+    transform: translateY(-50px);
+    margin: 0 auto;
+}
+
+.Line {
+    width: 460px;
+    height: 2px;
+    background-color: #F8E9DD;
+    margin: 0 auto;
+    transform: translateY(-107px);
+}
+
+.Total  {
+    margin: 0 auto;  
+    width: 50%;
+}
+
+.Total p {
+    font-size: 18px;
+    line-height: 23px;
+    color: #92857A;
+}
+
+.Total h1 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 62px;
+    color: #382314;
+}
+
+.Last-month {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    text-align: right;
+    flex-basis: 50%;
+}
+
+.Last-month h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #382314;
+}
+
+.Last-month p{
+    font-size: 18px;
+    line-height: 23px;
+    color: #92857A;
+}

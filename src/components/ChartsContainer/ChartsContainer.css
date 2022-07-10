@@ -1,0 +1,5 @@
+ .ChartsContainer {
+    display: flex;
+    margin: 0 auto;
+    transform: translateY(-40px);
+}

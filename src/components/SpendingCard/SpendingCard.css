@@ -1,0 +1,19 @@
+.SpendingCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 511px;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin-top: 24px; 
+}
+
+.SpendingCard h1 {
+    width: 350px;
+    height: 42px;
+    margin-top: 32px;
+    margin-left: 33px;
+    color: #382314; 
+}
+

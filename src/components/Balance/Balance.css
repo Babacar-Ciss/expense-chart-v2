@@ -1,0 +1,39 @@
+.BalanceCard {
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    background-color: #EC755D;
+    border-radius: 20px;
+    color: #FFF;
+  }
+  
+  .BalanceCard-balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-left: 32px;
+    margin-top: 27px;
+  }
+  
+  .BalanceCard-balance p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 8px;
+    font-family: 'DM Sans'; 
+  }
+  
+  .BalanceCard-balance h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFBF6; 
+    font-family: inherit;
+  }
+  
+  .BalanceCard img {
+    width: 72px;
+    height: 48px;
+    margin-top: 39px;
+    margin-right: 39px;
+  }
