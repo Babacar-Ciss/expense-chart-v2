@@ -1,9 +1,9 @@
 .BalanceCard {
     display: flex;
     justify-content: space-between;
-    height: 125px;
     background-color: #EC755D;
     border-radius: 20px;
+    padding-bottom: 25px;
     color: #FFF;
   }
   
@@ -42,8 +42,9 @@
   @media only screen and (max-width : 375px) {
     
     .BalanceCard {
-      width: 375px;
-      height: 97px;
+      width: 343px;
+      padding-bottom: 20px;
+      margin-inline: auto;
     }
 
     .BalanceCard-balance p {

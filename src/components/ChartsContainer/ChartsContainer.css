@@ -1,7 +1,12 @@
  .ChartsContainer {
     display: flex;
+    align-items: flex-end;
     margin: 0 auto;
     transform: translateY(-40px);
+
+
+
+
 }
 
 @media only screen and (max-width : 375px) {  

@@ -2,6 +2,8 @@ import Balance from './components/Balance/Balance';
 import SpendingCard from './components/SpendingCard/SpendingCard';
 import './App.css';
 
+
+
 function App() {
   return (
     <div className="App">
@@ -12,3 +14,4 @@ function App() {
 }
 
 export default App;
+ 

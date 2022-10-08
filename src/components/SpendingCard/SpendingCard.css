@@ -18,6 +18,13 @@
 }
 
 @media only screen and (max-width : 375px) { 
+    .SpendingCard {
+        width: 343px;
+        height: 421px;
+        margin-inline: auto;
+    }
+    
+    
     .SpendingCard h1 {
         width: 263px;
         height: 31px;
@@ -26,9 +33,6 @@
         font-size: 24px;
     }
 
-    .SpendingCard {
-        width: 375px;
-        height: 421px;
-    }
+    
 }
 

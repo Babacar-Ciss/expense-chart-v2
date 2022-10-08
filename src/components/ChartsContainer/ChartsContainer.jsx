@@ -6,7 +6,7 @@ const ChartsContainer = () => {
      
     const chartsDisplay = 
         datas.map(data => {
-            const dataStr = (data.amount * 2.87 ).toString();
+            const dataStr = data.amount * 2.87 ;
             return (         
             <Chart amount = {data.amount} 
                    heightOfChart = {dataStr}
